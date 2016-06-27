@@ -25,6 +25,7 @@ xhr("./assets/planes.svg", function(err, data) {
     var sprite = new Plane(group);
     if (!planes[id]) planes[id] = {};
     planes[id][isDorsal ? "dorsal" : "side"] = sprite;
+    sprite.positionAt(200, 200, 30);
   });
 
   console.log(planes);
