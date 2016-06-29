@@ -2,7 +2,6 @@
 
 .svg-container {
   position: fixed;
-  z-index: -1;
   overflow: hidden;
   top: 0;
   left: 0;
@@ -15,10 +14,58 @@
     display: block;
     padding-bottom: 50%;
   }
+
+  .plane {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
 
-.plane {
-  position: absolute;
-  top: 0;
-  left: 0;
+header.splash {
+  text-align: center;
+  padding: 100px 0;
+  z-index: 999;
+  position: relative;
+
+  h1 {
+    font-family: @headline;
+    font-size: 100px;
+  }
+
+  .chatter {
+    font-family: @subhead;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+}
+
+main.timeline {
+
+  max-width: 600px;
+  margin: auto;
+
+  .stage {
+    background: fade(white, 90%);
+    padding: 20px 40px;
+    margin-bottom: 300px;
+    position: relative;
+    box-shadow: 0px 8px 16px -8px fade(black, 20%);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-family: @subhead;
+    }
+  }
+
+}
+
+aside.explore {
+  padding: 100px;
+  outline: 1px solid black;
+  height: 100vh;
+  position: relative;
 }

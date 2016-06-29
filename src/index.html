@@ -5,12 +5,46 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Passion+One" rel="stylesheet">
     <%= t.include("partials/_head.html") %>
   </head>
   <body>
 
     <div class="svg-container"></div>
 
+    <%= t.include("partials/_nav.html") %>
+
+    <header class="splash">
+      <h1>Flying high</h1>
+      <p class="chatter">
+        Over the last 100 years, Boeing's story has paralleled the history of the United States, with ups, downs, and everything in between &mdash; even a boat or two!
+    </header>
+
+    <main class="timeline">
+      <% json.BoeingAnniversary_timeline.forEach(function(row) { %>
+      <section class="stage" id="">
+        <h2><%= row.title %></h2>
+        <div class="text">
+          <p>
+          <%= row.text.replace("\n", "<p>") %>
+        </div>
+      </section>
+      <% }) %>
+    </main>
+
+    <aside class="explore">
+
+    </aside>
+
+    <footer class="bottom">
+
+    </footer>
+
+    <%= t.include("partials/_navBottom.html") %>
+
+    <script>
+window.planeDetail = <%= JSON.stringify(json.BoeingAnniversary_planes) %>;
+    </script>
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
     <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
