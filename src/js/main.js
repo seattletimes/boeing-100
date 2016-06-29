@@ -6,14 +6,30 @@ var container = document.querySelector(".svg-container");
 
 var $ = require("./lib/qsa");
 var xhr = require("./lib/xhr");
+var { transform, transformOrigin } = require("./lib/prefixed");
 
-var Plane = require("./planeSprite");
+const NS = "http://www.w3.org/2000/svg";
+
+var generatePlaneLayer = function(group) {
+  var offset = group.getBBox();
+  var image = document.createElementNS(NS, "svg");
+  image.setAttribute("viewBox", `${offset.x} ${offset.y} ${offset.width} ${offset.height}`);
+  image.setAttribute("xlmns", NS);
+  image.setAttribute("width", offset.width);
+  image.setAttribute("height", offset.height);
+  image.setAttribute("preserveAspectRatio", "xMidYMid meet");
+  image.appendChild(group);
+  image.setAttribute("class", "plane");
+  image.style[transform] = "translate3d(0, 0, 0) rotate(0)";
+  image.style[transformOrigin] = "50% 50%";
+  image.bounds = offset;
+  return image;
+}
 
 xhr("./assets/planes.svg", function(err, data) {
   container.innerHTML = data;
 
   var svg = container.querySelector("svg");
-  svg.setAttribute("viewBox", "0 0 400 400");
 
   var groups = $("g[id]", svg);
   
@@ -22,22 +38,25 @@ xhr("./assets/planes.svg", function(err, data) {
     var id = group.getAttribute("id");
     var isDorsal = id.match(/dorsal/i);
     id = id.replace(/_(dorsal|side)_view/, "");
-    var sprite = new Plane(group);
+    var sprite = generatePlaneLayer(group);
     if (!planes[id]) planes[id] = {};
     planes[id][isDorsal ? "dorsal" : "side"] = sprite;
-    sprite.positionAt(200, 200, 30);
-    if (isDorsal) sprite.hide();
+    // sprite.element.appendChild(style.cloneNode());
+    container.appendChild(sprite);
+    if (isDorsal) sprite.style.display = "none";
   });
+
+  svg.style.display = "none";
+
+  // svg.parentElement.removeChild(svg);
 
   window.planes = planes;
 
   var sprites = Object.keys(planes).map(function(d) {
     var plane = planes[d];
-    // plane.dorsal.hide();
-    plane.side.positionAt(200, 200, -30);
     return {
       x: Math.random() * -800,
-      y: Math.random() * 200 + 50,
+      y: Math.random() * window.innerHeight * .8 + 50,
       dx: Math.random() * 30 + 30,
       sprite: plane.side
     }
@@ -47,10 +66,11 @@ xhr("./assets/planes.svg", function(err, data) {
   var update = function(now) {
     var elapsed = (now - last) / 1000;
     last = now;
+    var bounds = container.getBoundingClientRect();
     sprites.forEach(function(s) {
       s.x += elapsed * s.dx;
-      s.sprite.positionAt(s.x, s.y);
-      if (s.x > 600) s.x = -200;
+      s.sprite.style[transform] = `translate3d(${s.x}px, ${s.y}px, 0)`;
+      if (s.x > bounds.width) s.x = -s.sprite.bounds.width;
     });
     requestAnimationFrame(update);
   };

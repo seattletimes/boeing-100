@@ -1,1 +1,24 @@
 @import "seattletimes";
+
+.svg-container {
+  position: fixed;
+  z-index: -1;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, lighten(@st-light-blue, 5%), lighten(@st-light-blue, 10%));
+
+  &::before {
+    content: "";
+    display: block;
+    padding-bottom: 50%;
+  }
+}
+
+.plane {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
