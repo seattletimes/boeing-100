@@ -26,8 +26,37 @@ xhr("./assets/planes.svg", function(err, data) {
     if (!planes[id]) planes[id] = {};
     planes[id][isDorsal ? "dorsal" : "side"] = sprite;
     sprite.positionAt(200, 200, 30);
+    if (isDorsal) sprite.hide();
   });
 
-  console.log(planes);
+  window.planes = planes;
+
+  var sprites = Object.keys(planes).map(function(d) {
+    var plane = planes[d];
+    // plane.dorsal.hide();
+    plane.side.positionAt(200, 200, -30);
+    return {
+      x: Math.random() * -800,
+      y: Math.random() * 200 + 50,
+      dx: Math.random() * 30 + 30,
+      sprite: plane.side
+    }
+  });
+
+  var last = 0;
+  var update = function(now) {
+    var elapsed = (now - last) / 1000;
+    last = now;
+    sprites.forEach(function(s) {
+      s.x += elapsed * s.dx;
+      s.sprite.positionAt(s.x, s.y);
+      if (s.x > 600) s.x = -200;
+    });
+    requestAnimationFrame(update);
+  };
+
+  requestAnimationFrame(update);
+
+
 
 });

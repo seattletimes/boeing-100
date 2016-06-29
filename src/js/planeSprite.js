@@ -1,6 +1,7 @@
 class Plane {
   constructor(group) {
     this.element = group;
+    this.element.style.transition = "all .1s linear";
     this.offset = group.getBBox();
     this.positionAt(0, 0);
     this.animating = false;
@@ -19,6 +20,14 @@ class Plane {
   animateTo(x, y, r) {
     this.queue.push({ x, y, r });
     if (!this.animating) this.startAnimation();
+  }
+
+  hide() {
+    this.element.style.display = "none";
+  }
+
+  show() {
+    this.element.style.display = null;
   }
 
   startAnimation() {
