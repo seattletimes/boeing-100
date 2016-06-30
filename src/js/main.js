@@ -39,7 +39,7 @@ xhr("./assets/planes.svg", function(err, data) {
       frame.appendChild(sprite);
       views[key].dorsal = sprite;
       sprite.classList.add("dorsal");
-      sprite.style[transform] = "rotate(-90deg)";
+      // sprite.style[transform] = "rotate(-90deg)";
     } else {
       container.appendChild(sprite);
       views[key].side = sprite;

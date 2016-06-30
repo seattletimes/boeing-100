@@ -80,12 +80,18 @@ aside.explore {
   .plane-frame {
     .display-flex();
     .flex-wrap(wrap);
-    .justify-content(center);
+    .justify-content(space-around);
     .align-items(center);
   }
 
   .plane {
     margin: 20px;
+
+    @media @mobile {
+      max-width: 100px;
+      height: auto;
+      margin: 5px;
+    }
   }
 
   .plane-detail {
@@ -112,6 +118,17 @@ aside.explore {
       padding: 20px;
       width: 100%;
       max-width: 60%;
+      box-shadow: 0 0 16px 0 fade(black, 10%);
+
+      @media @mobile {
+        max-width: 95%;
+        max-height: 100%;
+        overflow-y: auto;
+      }
+    }
+
+    h1 {
+      font-size: 20px;
     }
 
     &.ready {
@@ -138,12 +155,16 @@ aside.explore {
 
     .landing-pad {
       position: relative;
-      background: linear-gradient(to bottom, @st-light-blue, @df-off-white 60%, @st-dark-green 60%, @st-light-green 100%);
+      background: linear-gradient(to bottom, 
+        @st-light-blue,
+        lighten(@st-light-blue, 5%) 60%,
+        @st-dark-green 60%,
+        darken(@st-dark-green, 20%) 100%);
 
       &::before {
         content: "";
         display: block;
-        padding-bottom: percentage(9 / 16);
+        padding-bottom: 40%;
       }
 
       .plane {
@@ -153,9 +174,14 @@ aside.explore {
         position: absolute;
         transition: all 1s ease-out .3s;
         margin: 0;
-        width: 90%;
+        max-width: 90%;
+        min-width: 30%;
         height: auto;
         opacity: 1;
+
+        @media @mobile {
+          min-width: 70%;
+        }
 
         &.landing {
           transform: translate3d(-1000px, -300px, 0) rotate(-4deg);
