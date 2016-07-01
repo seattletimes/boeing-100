@@ -160,6 +160,7 @@ aside.explore {
         lighten(@st-light-blue, 5%) 60%,
         @st-dark-green 60%,
         darken(@st-dark-green, 20%) 100%);
+      overflow: hidden;
 
       &::before {
         content: "";
@@ -172,7 +173,7 @@ aside.explore {
         left: 50%;
         transform: translate3d(-50%, -50%, 0) rotate(-1deg);
         position: absolute;
-        transition: all 1s ease-out .3s;
+        transition: all 1.5s ease-out .1s;
         margin: 0;
         max-width: 90%;
         min-width: 30%;
@@ -184,7 +185,7 @@ aside.explore {
         }
 
         &.landing {
-          transform: translate3d(-1000px, -300px, 0) rotate(-4deg);
+          transform: translate3d(-600px, -100px, 0) rotate(-4deg);
           opacity: .5;
         }
       }
