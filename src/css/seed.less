@@ -69,8 +69,8 @@ aside.explore {
   position: relative;
 
   @grid-spacing: 20px;
-  @grid-bg: darken(@df-blue, 20%);
-  @grid-fg: lighten(desaturate(@df-blue, 80%), 10%);
+  @grid-bg: desaturate(@df-blue, 60%);
+  @grid-fg: lighten(desaturate(@df-blue, 80%), 25%);
   @grid: 
     repeating-linear-gradient(transparent, transparent 3px, @grid-bg 3px, @grid-bg 4px, transparent 4px),
     repeating-linear-gradient(to right, transparent, transparent 3px, @grid-bg 3px, @grid-bg 4px, transparent 4px),
@@ -198,6 +198,7 @@ aside.explore {
       color: white;
       font-weight: bold;
       text-shadow: 0 0 2px @grid-bg;
+      width: 100%;
 
       &::before {
         content: "";
