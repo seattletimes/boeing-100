@@ -14,7 +14,6 @@ module.exports = function(group, id, isDorsal) {
   image.setAttribute("class", "plane");
   image.setAttribute("id", id);
   image.setAttribute("data-view", isDorsal ? "dorsal" : "side");
-  image.style[transform] = "translate3d(0, 0, 0) rotate(0)";
   image.style[transformOrigin] = "50% 50%";
   image.bounds = offset;
   return image;

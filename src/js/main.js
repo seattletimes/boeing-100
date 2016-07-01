@@ -29,6 +29,12 @@ xhr("./assets/planes.svg", function(err, data) {
     var id = group.getAttribute("id");
     var isDorsal = id.match(/dorsal/i);
     var key = id.replace(stripView, "");
+    var data = planeDetail[key];
+    if (!data) {
+      console.log("Missing data for ", key);
+      group.parentElement.removeChild(group);
+      return;
+    }
     var sprite = generatePlaneLayer(group, id, isDorsal);
     group.removeAttribute("id");
     if (!views[key]) views[key] = {};
@@ -36,10 +42,13 @@ xhr("./assets/planes.svg", function(err, data) {
     if (isDorsal) {
       var wrapper = document.createElement("div");
       wrapper.className = "plane-wrapper";
-      frame.appendChild(sprite);
+      if (planeDetail[key]) {
+        wrapper.innerHTML += `<label>${planeDetail[key].model}</label>`;
+      }
+      wrapper.appendChild(sprite);
+      frame.appendChild(wrapper);
       views[key].dorsal = sprite;
       sprite.classList.add("dorsal");
-      // sprite.style[transform] = "rotate(-90deg)";
     } else {
       container.appendChild(sprite);
       views[key].side = sprite;
@@ -69,7 +78,6 @@ xhr("./assets/planes.svg", function(err, data) {
       sprite: sprite.side,
       data: planeDetail[d]
     };
-    if (!planeDetail[d]) console.log("Missing plane data: ", d);
     reposition(plane);
     return plane;
   });

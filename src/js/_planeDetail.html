@@ -1,9 +1,11 @@
 <div class="content">
   <a class="close">&times;</a>
   <h1><%= data.model %></h1>
-  <div class="landing-pad"></div>
+  <div class="landing-pad">
+    <div class="wingspan">Wingspan: <%= data.wingspan %></div>
+    <div class="length">Length: <%= data.length %></div>
+  </div>
   <ul class="stats">
-    <li> <b>Size</b>: <%= data.length %> long, <%= data.wingspan %> wingspan
     <li> <b>Material</b>: <%= data.material %>
     <li> <b>Launched</b>: <%= data.launched %>
       <% if (data.production == "YES") { %>

@@ -4,7 +4,7 @@
     "length": "144 ft., 6 in.",
     "wingspan": "130 ft., 10 in.",
     "launched": "12/20/1957",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "No",
     "notes": "The 707-120 was Boeing's and United States' first commercial jet, four-engine jet and carried up to 181 passengers."
   },
@@ -13,7 +13,7 @@
     "length": "133 ft., 2 in.",
     "wingspan": "108 ft.",
     "launched": "2/9/1963",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "No",
     "notes": "Carried up to 131 passengers"
   },
@@ -22,7 +22,7 @@
     "length": "129 ft., 8 in.",
     "wingspan": "117 ft., 10 in.",
     "launched": "1/29/2016",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "YES",
     "notes": "Up to 189 passengers"
   },
@@ -31,7 +31,7 @@
     "length": "138 ft., 4 in.",
     "wingspan": "117 ft., 10 in.",
     "launched": "Entry into service 2018",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "YES",
     "notes": "Up to 200 passengers"
   },
@@ -40,7 +40,7 @@
     "length": "93 ft., 9 in.",
     "wingspan": "93 ft.",
     "launched": "4/9/1967",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "No",
     "notes": "Carried up to 100 passengers"
   },
@@ -49,43 +49,43 @@
     "length": "109 ft., 7 in.",
     "wingspan": "94 ft., 9 in.",
     "launched": "2/24/1984",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "No",
     "notes": "Carried up to 141 passengers"
   },
   "737_600": {
     "model": "737-600",
     "length": "102 ft., 6 in.",
-    "wingspan": "112 ft., 7 in. (WINGLETS: 117 ft. 5 in.)",
+    "wingspan": "112 ft., 7 in. (winglets: 117 ft. 5 in.)",
     "launched": "1/22/1998",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "YES",
     "notes": "Up to 132 passengers"
   },
   "737_700": {
     "model": "737-700",
     "length": "110 ft., 4 in. ",
-    "wingspan": "112 ft., 7 in. (WINGLETS: 117 ft. 5 in.)",
+    "wingspan": "112 ft., 7 in. (winglets: 117 ft. 5 in.)",
     "launched": "2/9/1997",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "YES",
     "notes": "Up to 149 passengers"
   },
   "737_800": {
     "model": "737-800",
     "length": "129 ft., 6 in. ",
-    "wingspan": "112 ft., 7 in. (WINGLETS: 117 ft. 5 in.)",
+    "wingspan": "112 ft., 7 in. (winglets: 117 ft. 5 in.)",
     "launched": "7/31/1997",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "YES",
     "notes": "Up to 189 passengers"
   },
   "737_900_ER": {
     "model": "737-900ER",
     "length": "138 ft., 2 in.",
-    "wingspan": "112 ft., 7 in. (WINGLETS: 117 ft. 5 in.)",
+    "wingspan": "112 ft., 7 in. (winglets: 117 ft. 5 in.)",
     "launched": "9/1/2006",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "YES",
     "notes": "Up to 215 passengers"
   },
@@ -94,7 +94,7 @@
     "length": "231 ft., 10.2 in.",
     "wingspan": "195 ft., 8 in.",
     "launched": "2/9/1969",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "No",
     "notes": "Carried up to 452 passengers"
   },
@@ -103,7 +103,7 @@
     "length": "231 ft., 10 in.",
     "wingspan": "211 ft., 5 in.",
     "launched": "4/29/1988",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "YES",
     "notes": "Up to 524 passengers"
   },
@@ -112,7 +112,7 @@
     "length": "231 ft., 10.2 in.",
     "wingspan": "211 ft., 5 in.",
     "launched": "7/31/2002",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "YES",
     "notes": "Up to 416 passengers"
   },
@@ -130,7 +130,7 @@
     "length": "155 ft., 3 in.",
     "wingspan": "124 ft., 10 in.",
     "launched": "2/19/1982",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "No",
     "notes": "Carried up to 228 passengers"
   },
@@ -139,7 +139,7 @@
     "length": "178 ft., 7 in.",
     "wingspan": "124 ft., 10 in.",
     "launched": "8/2/1998",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "No",
     "notes": "Carried up to 280 passengers"
   },
@@ -148,7 +148,7 @@
     "length": "159 ft., 2 in.",
     "wingspan": "156 ft., 1 in.",
     "launched": "9/26/1981",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "No",
     "notes": "Carried up to 216 passengers"
   },
@@ -157,7 +157,7 @@
     "length": "180 ft., 3 in.",
     "wingspan": "156 ft., 1 in.",
     "launched": "12/9/1986",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "YES",
     "notes": "Up to 218 passengers"
   },
@@ -166,7 +166,7 @@
     "length": "201 ft., 4 in. ",
     "wingspan": "170 ft., 4 in.",
     "launched": "10/9/1999",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "No",
     "notes": "Carried up to 245 passengers"
   },
@@ -283,7 +283,7 @@
     "length": "128 ft.",
     "wingspan": "130 ft.",
     "launched": "7/15/1954",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "No",
     "notes": "Model 367-80 was the prototype for Boeing’s KC-135 jet tankers and 707 commercial passenger jets, the first of the \"700\" aircraft family. First Boeing jet to use the swept-back \rwing design. "
   },
@@ -292,7 +292,7 @@
     "length": "110 ft., 4 in.",
     "wingspan": "141 ft., 3 in.",
     "launched": "7/8/1947",
-    "material": "All-metal, Aluminum-alloy construction",
+    "material": "All-metal, aluminum-alloy construction",
     "production": "No",
     "notes": "The model 377 Stratocruiser was Boeing's first long-range airliner. Carried up to 100 passengers"
   },

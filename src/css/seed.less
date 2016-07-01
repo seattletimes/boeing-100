@@ -68,6 +68,15 @@ aside.explore {
   padding: 100px 50px;
   position: relative;
 
+  @grid-spacing: 20px;
+  @grid-bg: darken(@df-blue, 20%);
+  @grid-fg: lighten(desaturate(@df-blue, 80%), 10%);
+  @grid: 
+    repeating-linear-gradient(transparent, transparent 3px, @grid-bg 3px, @grid-bg 4px, transparent 4px),
+    repeating-linear-gradient(to right, transparent, transparent 3px, @grid-bg 3px, @grid-bg 4px, transparent 4px),
+    repeating-linear-gradient(@grid-fg, @grid-fg 1px, transparent 1px, transparent @grid-spacing),
+    repeating-linear-gradient(to right, @grid-fg, @grid-fg 1px, transparent 1px, transparent @grid-spacing);
+
   h3 {
     text-align: center;
     font-family: @df-sans;
@@ -84,8 +93,36 @@ aside.explore {
     .align-items(center);
   }
 
+  .plane-wrapper {
+    padding: 20px;
+    cursor: pointer;
+
+    label {
+      display: block;
+      font-size: 14px;
+      text-align: center;
+      margin: 8px 0;
+      font-family: @df-sans;
+      color: @df-middle-gray;
+      transition: all .3s linear;
+    }
+
+    &:hover, &.focus {
+      label {
+        color: @df-dark-gray;
+      }
+
+      .plane {
+        transform-origin: 50% 50%;
+        transform: scale(1.2);
+      }
+    }
+  }
+
   .plane {
-    margin: 20px;
+    display: block;
+    margin: auto;
+    transition: all .2s ease-in-out;
 
     @media @mobile {
       max-width: 100px;
@@ -155,17 +192,30 @@ aside.explore {
 
     .landing-pad {
       position: relative;
-      background: linear-gradient(to bottom, 
-        @st-light-blue,
-        lighten(@st-light-blue, 5%) 60%,
-        @st-dark-green 60%,
-        darken(@st-dark-green, 20%) 100%);
+      background: @grid-bg;
+      background-image: @grid;
       overflow: hidden;
+      color: white;
+      font-weight: bold;
+      text-shadow: 0 0 2px @grid-bg;
 
       &::before {
         content: "";
         display: block;
         padding-bottom: 40%;
+      }
+
+      .length, .wingspan {
+        position: absolute;
+        bottom: 8px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+      }
+
+      .wingspan {
+        bottom: auto;
+        top: 8px;
       }
 
       .plane {
@@ -176,9 +226,8 @@ aside.explore {
         transition: all 1.5s ease-out .1s;
         margin: 0;
         max-width: 90%;
-        min-width: 30%;
+        min-width: 50%;
         height: auto;
-        opacity: 1;
 
         @media @mobile {
           min-width: 70%;
@@ -186,7 +235,6 @@ aside.explore {
 
         &.landing {
           transform: translate3d(-600px, -100px, 0) rotate(-4deg);
-          opacity: .5;
         }
       }
     }
