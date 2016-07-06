@@ -60,7 +60,7 @@ xhr("./assets/planes.svg", function(err, data) {
   svg.style.display = "none";
 
   var reposition = function(plane) {
-    plane.x = Math.random() * -800;
+    plane.x = Math.random() * -800 - plane.width;
     plane.y = Math.random() * window.innerHeight * .8 + 50;
     plane.dx = Math.random() * 30 + 30;
     plane.r = Math.random() * -5;
@@ -75,6 +75,7 @@ xhr("./assets/planes.svg", function(err, data) {
       dx: 0,
       dy: 0,
       r: -4,
+      width: sprite.side.getAttribute("width") * 1,
       sprite: sprite.side,
       data: planeDetail[d]
     };
@@ -87,6 +88,7 @@ xhr("./assets/planes.svg", function(err, data) {
   var timeout;
   var animate = function(now) {
     var elapsed = (now - (last || now)) / 1000;
+    if (elapsed > 1) elapsed = 1;
     last = now;
     var bounds = container.getBoundingClientRect();
     planes.forEach(function(s) {
