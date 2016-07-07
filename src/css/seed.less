@@ -68,10 +68,14 @@ main.timeline {
 
   .row {
     .display-flex();
+
+    @media @tablet {
+      display: block;
+    }
   }
 
   .photo {
-    padding: 0 16px;
+    padding: 0 0 0 16px;
     .flex(2);
 
     img {
