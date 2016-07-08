@@ -24,7 +24,7 @@ xhr("./assets/planes.svg", function(err, data) {
   var groups = $("g[id]", svg);
 
   // Extract each group and add to a sprite map  
-  var views = {};
+  var views = window.views = {};
   groups.forEach(function(group) {
     var id = group.getAttribute("id");
     var isDorsal = id.match(/dorsal/i);
