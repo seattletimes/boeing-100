@@ -20,7 +20,7 @@
     </header>
 
     <main class="timeline">
-      <% json.BoeingAnniversary_timeline.forEach(function(row) { %>
+      <% json.BoeingAnniversary_timeline.forEach(function(row, index) { %>
       <section class="stage" id="">
         <h2><%= row.title %></h2>
         <div class="row">
@@ -37,6 +37,9 @@
           </div>
         </div>
       </section>
+      <% if (index && index % 4 == 0) { %>
+      <%= t.include("partials/_ad.html", { type: "banner" }) %>
+      <% } %>
       <% }) %>
     </main>
 

@@ -5,17 +5,17 @@
       "path": "unmoved-atmosphere"
     },
     "live": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects.seattletimes.com",
+      "path": "2016/boeing-timeline"
     }
   },
-  "title": "",
+  "title": "Flying high",
   "description": "",
-  "url": "",
+  "url": "http://projects.seattletimes.com/2016/boeing-timeline/",
   "slug": "",
   "tags": [],
-  "image": "assets/social.jpg",
+  "image": "assets/images/2-AfterGreatWar.jpg",
   "sheets": ["1ONfaJClEhSASBdKh-79TrU0glLJEA0ZR_f_bdB1jtZI"],
-  "production": false,
+  "production": true,
   "embedded": true
 }

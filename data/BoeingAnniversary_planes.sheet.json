@@ -1,8 +1,8 @@
 {
   "707_120": {
     "model": "707-120",
-    "length": "144 ft., 6 in.",
-    "wingspan": "130 ft., 10 in.",
+    "length": "144 feet 6 inches",
+    "wingspan": "130 feet 10 inches",
     "launched": "12/20/1957",
     "material": "All-metal, aluminum-alloy construction",
     "production": "No",
@@ -10,8 +10,8 @@
   },
   "727_100": {
     "model": "727-100",
-    "length": "133 ft., 2 in.",
-    "wingspan": "108 ft.",
+    "length": "133 feet 2 inches",
+    "wingspan": "108 feet",
     "launched": "2/9/1963",
     "material": "All-metal, aluminum-alloy construction",
     "production": "No",
@@ -19,26 +19,26 @@
   },
   "737_MAX_8": {
     "model": "737 MAX 8",
-    "length": "129 ft., 8 in.",
-    "wingspan": "117 ft., 10 in.",
+    "length": "129 feet 8 inches",
+    "wingspan": "117 feet 10 inches",
     "launched": "1/29/2016",
     "material": "All-metal, aluminum-alloy construction",
     "production": "YES",
-    "notes": "Up to 189 passengers"
+    "notes": "Holds up to 189 passengers"
   },
   "737_MAX_9": {
     "model": "737 MAX 9",
-    "length": "138 ft., 4 in.",
-    "wingspan": "117 ft., 10 in.",
+    "length": "138 feet 4 inches",
+    "wingspan": "117 feet 10 inches",
     "launched": "Scheduled to enter service in 2018",
     "material": "All-metal, aluminum-alloy construction",
     "production": "YES",
-    "notes": "Up to 200 passengers"
+    "notes": "Holds up to 200 passengers"
   },
   "737_100": {
     "model": "737-100",
-    "length": "93 ft., 9 in.",
-    "wingspan": "93 ft.",
+    "length": "93 feet 9 inches",
+    "wingspan": "93 feet",
     "launched": "4/9/1967",
     "material": "All-metal, aluminum-alloy construction",
     "production": "No",
@@ -46,8 +46,8 @@
   },
   "737_300": {
     "model": "737-300",
-    "length": "109 ft., 7 in.",
-    "wingspan": "94 ft., 9 in.",
+    "length": "109 feet 7 inches",
+    "wingspan": "94 feet 9 inches",
     "launched": "2/24/1984",
     "material": "All-metal, aluminum-alloy construction",
     "production": "No",
@@ -55,44 +55,44 @@
   },
   "737_600": {
     "model": "737-600",
-    "length": "102 ft., 6 in.",
-    "wingspan": "112 ft., 7 in. (winglets: 117 ft. 5 in.)",
+    "length": "102 feet 6 inches",
+    "wingspan": "112 feet 7 inches (winglets: 117 feet 5 inches)",
     "launched": "1/22/1998",
     "material": "All-metal, aluminum-alloy construction",
     "production": "YES",
-    "notes": "Up to 132 passengers"
+    "notes": "Holds up to 132 passengers"
   },
   "737_700": {
     "model": "737-700",
-    "length": "110 ft., 4 in. ",
-    "wingspan": "112 ft., 7 in. (winglets: 117 ft. 5 in.)",
+    "length": "110 feet 4 inches ",
+    "wingspan": "112 feet 7 inches (winglets: 117 feet 5 inches)",
     "launched": "2/9/1997",
     "material": "All-metal, aluminum-alloy construction",
     "production": "YES",
-    "notes": "Up to 149 passengers"
+    "notes": "Holds up to 149 passengers"
   },
   "737_800": {
     "model": "737-800",
-    "length": "129 ft., 6 in. ",
-    "wingspan": "112 ft., 7 in. (winglets: 117 ft. 5 in.)",
+    "length": "129 feet 6 inches ",
+    "wingspan": "112 feet 7 inches (winglets: 117 feet 5 inches)",
     "launched": "7/31/1997",
     "material": "All-metal, aluminum-alloy construction",
     "production": "YES",
-    "notes": "Up to 189 passengers"
+    "notes": "Holds up to 189 passengers"
   },
   "737_900_ER": {
     "model": "737-900ER",
-    "length": "138 ft., 2 in.",
-    "wingspan": "112 ft., 7 in. (winglets: 117 ft. 5 in.)",
+    "length": "138 feet 2 inches",
+    "wingspan": "112 feet 7 inches (winglets: 117 feet 5 inches)",
     "launched": "9/1/2006",
     "material": "All-metal, aluminum-alloy construction",
     "production": "YES",
-    "notes": "Up to 215 passengers"
+    "notes": "Holds up to 215 passengers"
   },
   "747_100": {
     "model": "747-100",
-    "length": "231 ft., 10.2 in.",
-    "wingspan": "195 ft., 8 in.",
+    "length": "231 feet 10.2 inches",
+    "wingspan": "195 feet 8 inches",
     "launched": "2/9/1969",
     "material": "All-metal, aluminum-alloy construction",
     "production": "No",
@@ -100,35 +100,35 @@
   },
   "747_400": {
     "model": "747-400",
-    "length": "231 ft., 10 in.",
-    "wingspan": "211 ft., 5 in.",
+    "length": "231 feet 10 inches",
+    "wingspan": "211 feet 5 inches",
     "launched": "4/29/1988",
     "material": "All-metal, aluminum-alloy construction",
     "production": "YES",
-    "notes": "Up to 524 passengers"
+    "notes": "Holds up to 524 passengers"
   },
   "747_400_ER": {
     "model": "747-400ER",
-    "length": "231 ft., 10.2 in.",
-    "wingspan": "211 ft., 5 in.",
+    "length": "231 feet 10.2 inches",
+    "wingspan": "211 feet 5 inches",
     "launched": "7/31/2002",
     "material": "All-metal, aluminum-alloy construction",
     "production": "YES",
-    "notes": "Up to 416 passengers"
+    "notes": "Holds up to 416 passengers"
   },
   "747_8_Intercontinental": {
     "model": "747-8 Intercontinental",
-    "length": "250 ft., 8 in.",
-    "wingspan": "224 ft., 7 in.",
+    "length": "250 feet 8 inches",
+    "wingspan": "224 feet 7 inches",
     "launched": "3/20/2011",
     "material": "Aluminum-alloy fuselage, composite wings, engine cowling, rudder, vertical stabilizer, elevators",
     "production": "YES",
-    "notes": "Up to 467 passengers"
+    "notes": "Holds up to 467 passengers"
   },
   "757_200": {
     "model": "757-200",
-    "length": "155 ft., 3 in.",
-    "wingspan": "124 ft., 10 in.",
+    "length": "155 feet 3 inches",
+    "wingspan": "124 feet 10 inches",
     "launched": "2/19/1982",
     "material": "All-metal, aluminum-alloy construction",
     "production": "No",
@@ -136,8 +136,8 @@
   },
   "757_300": {
     "model": "757-300",
-    "length": "178 ft., 7 in.",
-    "wingspan": "124 ft., 10 in.",
+    "length": "178 feet 7 inches",
+    "wingspan": "124 feet 10 inches",
     "launched": "8/2/1998",
     "material": "All-metal, aluminum-alloy construction",
     "production": "No",
@@ -145,8 +145,8 @@
   },
   "767_200": {
     "model": "767-200",
-    "length": "159 ft., 2 in.",
-    "wingspan": "156 ft., 1 in.",
+    "length": "159 feet 2 inches",
+    "wingspan": "156 feet 1 inches",
     "launched": "9/26/1981",
     "material": "All-metal, aluminum-alloy construction",
     "production": "No",
@@ -154,17 +154,17 @@
   },
   "767_300_ER": {
     "model": "767-300ER",
-    "length": "180 ft., 3 in.",
-    "wingspan": "156 ft., 1 in.",
+    "length": "180 feet 3 inches",
+    "wingspan": "156 feet 1 inches",
     "launched": "12/9/1986",
     "material": "All-metal, aluminum-alloy construction",
     "production": "YES",
-    "notes": "Up to 218 passengers"
+    "notes": "Holds up to 218 passengers"
   },
   "767_400_ER": {
     "model": "767-400ER",
-    "length": "201 ft., 4 in. ",
-    "wingspan": "170 ft., 4 in.",
+    "length": "201 feet 4 inches ",
+    "wingspan": "170 feet 4 inches",
     "launched": "10/9/1999",
     "material": "All-metal, aluminum-alloy construction",
     "production": "No",
@@ -172,233 +172,233 @@
   },
   "777_200": {
     "model": "777-200",
-    "length": "209 ft., 1 in.",
-    "wingspan": "199 ft., 11 in.",
+    "length": "209 feet 1 inches",
+    "wingspan": "199 feet 11 inches",
     "launched": "6/12/1994",
     "material": "Aluminum-alloy fuselage and wings, composite vertical stabilizers, horizontal stabilizer and passenger cabin floor beams",
     "production": "No",
-    "notes": "The 777-200 was the first completely computer designed commercial passenger airliner. Up to 440 passengers"
+    "notes": "The 777-200 was the first completely computer designed commercial passenger airliner. Holds up to 440 passengers"
   },
   "777_200_LR": {
     "model": "777-200LR",
-    "length": "209 ft., 1 in.",
-    "wingspan": "212 ft., 7 in.",
+    "length": "209 feet 1 inches",
+    "wingspan": "212 feet 7 inches",
     "launched": "3/8/2005",
     "material": "Aluminum-alloy fuselage and wings, composite vertical stabilizers, horizontal stabilizer and passenger cabin floor beams",
     "production": "YES",
-    "notes": "Up to 301 passengers"
+    "notes": "Holds up to 301 passengers"
   },
   "777_300": {
     "model": "777-300",
-    "length": "242 ft., 4 in. ",
-    "wingspan": "199 ft., 11 in.",
+    "length": "242 feet 4 inches ",
+    "wingspan": "199 feet 11 inches",
     "launched": "10/8/1997",
     "material": "Aluminum-alloy fuselage and wings, composite vertical stabilizers, horizontal stabilizer and passenger cabin floor beams",
     "production": "YES",
-    "notes": "Up to 550 passengers"
+    "notes": "Holds up to 550 passengers"
   },
   "777_300_ER": {
     "model": "777-300ER",
-    "length": "242 ft., 4 in. ",
-    "wingspan": "212 ft., 7 in.",
+    "length": "242 feet 4 inches ",
+    "wingspan": "212 feet 7 inches",
     "launched": "2/24/2003",
     "material": "Aluminum-alloy fuselage and wings, composite vertical stabilizers, horizontal stabilizer and passenger cabin floor beams",
     "production": "YES",
-    "notes": "Up to 365 passengers"
+    "notes": "Holds up to 365 passengers"
   },
   "777_9": {
     "model": "777-9",
-    "length": "225 ft., 11 in.",
-    "wingspan": "235 ft. (in-flight); 212 ft., 8 in. (folded on ground)",
+    "length": "225 feet 11 inches",
+    "wingspan": "235 feet (in-flight); 212 feet 8 inches (folded on ground)",
     "launched": "Scheduled to enter service in 2020",
     "material": "Unknown",
     "production": "IN DESIGN",
-    "notes": "Up to 425 passengers"
+    "notes": "Holds up to 425 passengers"
   },
   "787_8": {
     "model": "787-8",
-    "length": "186 ft.",
-    "wingspan": "197 ft.",
+    "length": "186 feet",
+    "wingspan": "197 feet",
     "launched": "12/15/2009",
     "material": "Mostly composite",
     "production": "YES",
-    "notes": "Up to 242 passengers"
+    "notes": "Holds up to 242 passengers"
   },
   "787_9": {
     "model": "787-9",
-    "length": "206 ft.",
-    "wingspan": "197 ft.",
+    "length": "206 feet",
+    "wingspan": "197 feet",
     "launched": "9/17/2013",
     "material": "Mostly composite",
     "production": "YES",
-    "notes": "Up to 280 passengers"
+    "notes": "Holds up to 280 passengers"
   },
   "787_10": {
     "model": "787-10",
-    "length": "224 ft.",
-    "wingspan": "197 ft.",
+    "length": "224 feet",
+    "wingspan": "197 feet",
     "launched": "Scheduled to enter service in 2018",
     "material": "Mostly composite",
     "production": "Being built, needs to be flight tested",
-    "notes": "Up to 323 passengers"
+    "notes": "Holds up to 323 passengers"
   },
   "B-1_SEAPLANE": {
     "model": "B-1 Seaplane",
-    "length": "31 ft., 3 in.",
-    "wingspan": "50 ft., 3 in.",
+    "length": "31 feet 3 inches",
+    "wingspan": "50 feet 3 inches",
     "launched": "12/27/1919",
     "material": "Wood, linen and wire bracing",
     "production": "No",
     "notes": "B-1 had a laminated wood veneer hull. It was the Boeing Company’s first commercial design. Only one was built."
   },
   "B_and_W_SEAPLANE": {
-    "model": "B&W Seaplane",
+    "model": "B&amp;W Seaplane",
     "length": "27 feet, 6 inches",
     "wingspan": "52 feet",
     "launched": "6/15/1916",
     "material": "Wood, linen and wire bracing",
     "production": "No",
-    "notes": "Boeing's first product was the B&W seaplane."
+    "notes": "Boeing's first product was the B&amp;W seaplane."
   },
   "MODEL_247": {
-    "model": "MODEL 247",
-    "length": "74 ft.",
-    "wingspan": "51 ft., 7 in.",
+    "model": "Model 247",
+    "length": "74 feet",
+    "wingspan": "51 feet 7 inches",
     "launched": "2/8/1933",
     "material": "All-metal construction",
     "production": "No",
     "notes": "Boeing Model 247 was the first modern passenger airliner. It was an all-metal twin-engine airplane. It carried 10 passengers."
   },
   "MODEL_299": {
-    "model": "MODEL 299",
-    "length": "74 ft., 9 in. ",
-    "wingspan": "103 ft., 9 in.",
+    "model": "Model 299",
+    "length": "74 feet 9 inches ",
+    "wingspan": "103 feet 9 inches",
     "launched": "7/28/1935",
     "material": "All-metal, aluminum-alloy construction",
     "production": "No",
     "notes": "B-17 Flying Fortress bomber"
   },
   "MODEL_307_Stratoliner": {
-    "model": "MODEL 307 Stratoliner",
-    "length": "74 ft., 4 inches",
-    "wingspan": "107 ft., 3 in.",
+    "model": "Model 307 Stratoliner",
+    "length": "74 feet 4 inches",
+    "wingspan": "107 feet 3 inches",
     "launched": "12/31/1938",
     "material": "All-metal construction",
     "production": "No",
     "notes": "Boeing Model 307 Stratoliner was the first pressurized airliner and could fly at an altitude of 20,000 feet. It carried 33 passengers "
   },
   "MODEL_314": {
-    "model": "MODEL 314",
-    "length": "106 ft.",
-    "wingspan": "152 ft.",
+    "model": "Model 314",
+    "length": "106 feet",
+    "wingspan": "152 feet",
     "launched": "6/7/1938",
     "material": "All-metal construction",
     "production": "No",
     "notes": "The Model 314 flew scheduled trans-Atlantic and trans-Pacific passenger service starting in 1939 and carried up to 74 passengers and 10 crew members. "
   },
   "MODEL_345": {
-    "model": "MODEL 345",
-    "length": "99 ft.",
-    "wingspan": "141 ft., 3 in.",
+    "model": "Model 345",
+    "length": "99 feet",
+    "wingspan": "141 feet 3 inches",
     "launched": "9/21/1942",
     "material": "All-metal, aluminum-alloy construction",
     "production": "No",
     "notes": "B-29 Superfortress heavy bomber"
   },
   "MODEL_367_80": {
-    "model": "MODEL 367-80",
-    "length": "128 ft.",
-    "wingspan": "130 ft.",
+    "model": "Model 367-80",
+    "length": "128 feet",
+    "wingspan": "130 feet",
     "launched": "7/15/1954",
     "material": "All-metal, aluminum-alloy construction",
     "production": "No",
     "notes": "Model 367-80 was the prototype for Boeing’s KC-135 jet tankers and 707 commercial passenger jets, the first of the \"700\" aircraft family. First Boeing jet to use the swept-back wing design. "
   },
   "MODEL_377_Stratocruiser": {
-    "model": "MODEL 377 Stratocruiser",
-    "length": "110 ft., 4 in.",
-    "wingspan": "141 ft., 3 in.",
+    "model": "Model 377 Stratocruiser",
+    "length": "110 feet 4 inches",
+    "wingspan": "141 feet 3 inches",
     "launched": "7/8/1947",
     "material": "All-metal, aluminum-alloy construction",
     "production": "No",
     "notes": "The Model 377 Stratocruiser was Boeing's first long-range airliner. Carried up to 100 passengers"
   },
   "MODEL_40": {
-    "model": "MODEL 40",
-    "length": "33 ft., 2.25 in.",
-    "wingspan": "44 ft., 2.25 in.",
+    "model": "Model 40",
+    "length": "33 feet 2.25 inches",
+    "wingspan": "44 feet 2.25 inches",
     "launched": "7/7/1925",
     "material": "Wood, linen and arc-weld tubebracing",
     "production": "No",
     "notes": "Mail plane. Built to meet U.S. Post Office specifications. Only one was bought by the government."
   },
   "MODEL_40A": {
-    "model": "MODEL 40A",
-    "length": "33 ft., 2.25 in.",
-    "wingspan": "44 ft., 2.25 in.",
+    "model": "Model 40A",
+    "length": "33 feet 2.25 inches",
+    "wingspan": "44 feet 2.25 inches",
     "launched": "5/20/1927",
     "material": "Wood, linen and arc-weld tubebracing",
     "production": "No",
     "notes": "The first Boeing plane to carry two passengers and mail."
   },
   "MODEL_75": {
-    "model": "MODEL 75",
-    "length": "24 ft., 3 in. ",
-    "wingspan": "32 ft., 2 in.",
+    "model": "Model 75",
+    "length": "24 feet 3 inches ",
+    "wingspan": "32 feet 2 inches",
     "launched": "11/26/1934",
     "material": "Wood wings, welded-steel fuselage",
     "production": "No",
     "notes": "Two-seater biplane trainer."
   },
   "MODEL_8": {
-    "model": "MODEL 8",
-    "length": "29 ft., 3 in.",
-    "wingspan": "44 ft., 9 in.",
+    "model": "Model 8",
+    "length": "29 feet 3 inches",
+    "wingspan": "44 feet 9 inches",
     "launched": "5/24/1920",
     "material": "Wood, linen and wire bracing",
     "production": "No",
     "notes": "The Model 8 or BB-L6 was the first plane to fly over Mount Rainier. Only one was built and it was for Boeing’s first test pilot, Herb Munter. One pilot and two passengers"
   },
   "MODEL_80": {
-    "model": "MODEL 80",
-    "length": "54 ft., 11 in.",
-    "wingspan": "80 ft.",
+    "model": "Model 80",
+    "length": "54 feet 11 inches",
+    "wingspan": "80 feet",
     "launched": "7/27/1928",
     "material": "Wood, linen and arc-weld tube bracing",
     "production": "No",
     "notes": "Boeing’s Model 80 was the first American airliner and it carried 12 passengers."
   },
   "MODEL_80A": {
-    "model": "MODEL 80A",
-    "length": "56 ft., 6 in.",
-    "wingspan": "80 ft.",
+    "model": "Model 80A",
+    "length": "56 feet 6 inches",
+    "wingspan": "80 feet",
     "launched": "9/12/1929",
     "material": "Wood, linen and arc-weld tube bracing",
     "production": "No",
     "notes": "Model 80A carried 18 passengers."
   },
   "MODEL_C": {
-    "model": "MODEL C",
-    "length": "27 ft",
-    "wingspan": "43 ft., 10 in.",
+    "model": "Model C",
+    "length": "27 feet",
+    "wingspan": "43 feet 10 inches",
     "launched": "11/15/1916",
     "material": "Wood, linen and wire bracing",
     "production": "No",
     "notes": "Two-seater training seaplane. The Model C was the company's first \"all-Boeing\" design and first financial success."
   },
   "MONOMAIL_200": {
-    "model": "MONOMAIL 200",
-    "length": "41 ft., 2.47 in.",
-    "wingspan": "59 ft., 1.5 in.",
+    "model": "Monomail 200",
+    "length": "41 feet 2.47 inches",
+    "wingspan": "59 feet 1.5 inches",
     "launched": "5/6/1930",
     "material": "All-metal construction",
     "production": "No",
     "notes": "Model 200 was a single- wing, all metal, mail plane."
   },
   "MONOMAIL_221": {
-    "model": "MONOMAIL 221",
-    "length": "41 ft., 10.47 in.",
-    "wingspan": "59 ft., 1 in.",
+    "model": "Monomail 221",
+    "length": "41 feet 10.47 inches",
+    "wingspan": "59 feet 1 inches",
     "launched": "8/18/1930",
     "material": "All-metal construction",
     "production": "No",

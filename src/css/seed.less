@@ -49,7 +49,7 @@ main.timeline {
 
   .stage {
     background: fade(white, 90%);
-    margin-bottom: 300px;
+    margin-bottom: 100px;
     position: relative;
     box-shadow: 0px 8px 16px -8px fade(black, 20%);
 
@@ -59,11 +59,17 @@ main.timeline {
 
     h2 {
       font-style: italic;
-      padding: 16px;
+      padding: 16px 0 8px;
       margin: 0;
       display: block;
       text-align: center;
     }
+  }
+
+  .ad {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    margin-bottom: 100px;
   }
 
   .row {
@@ -116,7 +122,7 @@ aside.explore {
 
   @grid-spacing: 20px;
   @grid-bg: desaturate(@df-blue, 60%);
-  @grid-fg: lighten(desaturate(@df-blue, 80%), 25%);
+  @grid-fg: lighten(desaturate(@df-blue, 70%), 15%);
   @grid: 
     repeating-linear-gradient(transparent, transparent 3px, @grid-bg 3px, @grid-bg 4px, transparent 4px),
     repeating-linear-gradient(to right, transparent, transparent 3px, @grid-bg 3px, @grid-bg 4px, transparent 4px),
@@ -125,11 +131,9 @@ aside.explore {
 
   h3 {
     text-align: center;
-    font-family: @df-sans;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 15px;
-    margin: 0 0 50px;
+    font-size: 40px;
+    margin: 0 0 25px;
+    font-style: italic;
   }
 
   .plane-frame {
@@ -151,6 +155,7 @@ aside.explore {
       font-family: @df-sans;
       color: @df-middle-gray;
       transition: all .3s linear;
+      font-weight: bold;
     }
 
     &:hover, &.focus {
@@ -160,7 +165,7 @@ aside.explore {
 
       .plane {
         transform-origin: 50% 50%;
-        transform: scale(1.2);
+        transform: scale(1.3);
       }
     }
   }

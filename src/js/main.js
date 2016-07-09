@@ -1,6 +1,6 @@
-// require("./lib/social");
-// require("./lib/ads");
-// var track = require("./lib/tracking");
+require("./lib/social");
+require("./lib/ads");
+var track = require("./lib/tracking");
 
 var $ = require("./lib/qsa");
 var xhr = require("./lib/xhr");
@@ -31,8 +31,8 @@ xhr("./assets/planes.svg", function(err, data) {
     var key = id.replace(stripView, "");
     var data = planeDetail[key];
     if (!data) {
-      console.log("Missing data for ", key);
-      group.parentElement.removeChild(group);
+      // console.log("Missing data for ", key);
+      group.parentNode.removeChild(group);
       return;
     }
     var sprite = generatePlaneLayer(group, id, isDorsal);
@@ -48,11 +48,11 @@ xhr("./assets/planes.svg", function(err, data) {
       wrapper.appendChild(sprite);
       frame.appendChild(wrapper);
       views[key].dorsal = sprite;
-      sprite.classList.add("dorsal");
+      sprite.setAttribute("class", sprite.getAttribute("class") + " dorsal");
     } else {
       container.appendChild(sprite);
       views[key].side = sprite;
-      sprite.classList.add("side");
+      sprite.setAttribute("class", sprite.getAttribute("class") + " side");
     }
   });
 
@@ -91,7 +91,7 @@ xhr("./assets/planes.svg", function(err, data) {
     if (elapsed > 1) elapsed = 1;
     last = now;
     var bounds = container.getBoundingClientRect();
-    planes.forEach(function(s) {
+    planes.forEach(function(s, i) {
       s.x += elapsed * s.dx;
       s.y += elapsed * s.dy;
       s.sprite.style[transform] = `translate3d(${s.x}px, ${s.y}px, 0) rotate(${s.r}deg)`;
@@ -130,8 +130,10 @@ xhr("./assets/planes.svg", function(err, data) {
 
   var detailModal = aside.querySelector(".plane-detail");
 
-  aside.addEventListener("click", function(e) {
-    var image = closest(e.target, "svg[id]:not(.close-up)");
+  var dorsals = $("svg[id]:not(.close-up)", aside);
+
+  dorsals.forEach(el => el.addEventListener("click", function(e) {
+    var image = this;
     if (!image) return;
     var id = image.getAttribute("id").replace(stripView, "");
     var data = planeDetail[id];
@@ -144,14 +146,14 @@ xhr("./assets/planes.svg", function(err, data) {
     var reflow = detailModal.offsetWidth;
     detailModal.classList.add("show");
     var sideView = views[id].side.cloneNode(true);
-    sideView.classList.remove("side");
-    sideView.style[transform] = null;
-    sideView.classList.add("landing", "close-up");
+    sideView.style[transform] = "";
+    sideView.style.transform = "";
+    sideView.setAttribute("class", sideView.getAttribute("class").replace(/side/g, ""));
+    sideView.setAttribute("class", sideView.getAttribute("class") + "landing close-up");
     detailModal.querySelector(".landing-pad").appendChild(sideView);
     reflow = detailModal.offsetWidth;
-    sideView.classList.remove("landing");
-    sideView.onload = e => console.log(e);
-  });
+    sideView.setAttribute("class", sideView.getAttribute("class").replace(/landing/g, ""));
+  }));
 
   detailModal.addEventListener("click", function(e) {
     if (e.target.classList.contains("close") || e.target == detailModal) {
