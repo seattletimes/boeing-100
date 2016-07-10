@@ -16,6 +16,7 @@
   },
   {
     "image": "3-Airmail.jpg",
+    "caption": "Boeing’s Model 40A, built to carry two passengers and mail as well as the pilot, initially was built under a contract with the federal Post Office Department. It went on to become Boeing’s first commercially successful plane and pioneered air transport in the U.S. In all, 77 were built.",
     "credit": "Boeing",
     "year": 1927,
     "title": "From airmail to passengers",
@@ -30,6 +31,7 @@
   },
   {
     "image": "5-EraOfJets.jpg",
+    "caption": "Boeing's first production-model 707-120 jet transport rolls out from the Renton plant on Oct. 28, 1957, as workers watch. The first commercial jet in widespread use by airlines, it marked the arrival of a new age for air travel.",
     "credit": "Larry Dion / The Seattle Times",
     "year": 1945,
     "title": "The era of jets",
@@ -37,6 +39,7 @@
   },
   {
     "image": "6-Nonstop.jpg",
+    "caption": "Poised on the Boeing flight line in Seattle in 1958, the first three 707-121 aircraft with Pratt & Whitney JT3C6 engines await delivery to Pan American World Airways.",
     "credit": "Seattle Times archive",
     "year": 1958,
     "title": "The desire for nonstop flights",
@@ -44,6 +47,7 @@
   },
   {
     "image": "7-BoeingDominateforDecades.jpg",
+    "caption": "The nose section of Boeing’s first 737 short-range jet is settled into position to join the forward fuselage in the Renton plant in 1966. Portions of the rear fuselage and vertical tail sections were delivered from Boeing's Wichita division to the production line. The 737 made its first flight on April 9, 1967.",
     "credit": "Boeing",
     "year": 1967,
     "title": "Boeing jets dominate for decades",
@@ -51,6 +55,7 @@
   },
   {
     "image": "8-RiseofAirbus.jpg",
+    "caption": "An Airbus A340-600 makes an exhibition flight at the Paris Air Show in 2003, the year the European aerospace consortium for the first time delivered more airplanes than Boeing. It’s been a stiff rivalry ever since.",
     "credit": "Francois Mori / Associated Press",
     "year": 1970,
     "title": "The rise of Airbus",
