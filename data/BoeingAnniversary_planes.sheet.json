@@ -270,13 +270,13 @@
     "notes": "Boeing Model 247 was the first modern passenger airliner. It was an all-metal twin-engine airplane. It carried 10 passengers."
   },
   "MODEL_299": {
-    "model": "Model 299",
+    "model": "B-17 Fortress",
     "length": "74 feet 9 inches ",
     "wingspan": "103 feet 9 inches",
     "launched": "7/28/1935",
     "material": "All-metal, aluminum-alloy construction",
     "production": "No",
-    "notes": "B-17 Flying Fortress bomber"
+    "notes": "Also known as the Model 299"
   },
   "MODEL_307_Stratoliner": {
     "model": "Model 307 Stratoliner",
@@ -297,13 +297,13 @@
     "notes": "The Model 314 flew scheduled trans-Atlantic and trans-Pacific passenger service starting in 1939 and carried up to 74 passengers and 10 crew members. "
   },
   "MODEL_345": {
-    "model": "Model 345",
+    "model": "B-29 Superfortress",
     "length": "99 feet",
     "wingspan": "141 feet 3 inches",
     "launched": "9/21/1942",
     "material": "All-metal, aluminum-alloy construction",
     "production": "No",
-    "notes": "B-29 Superfortress heavy bomber"
+    "notes": "Also known as the Model 345"
   },
   "MODEL_367_80": {
     "model": "Model 367-80",
@@ -328,7 +328,7 @@
     "length": "33 feet 2.25 inches",
     "wingspan": "44 feet 2.25 inches",
     "launched": "7/7/1925",
-    "material": "Wood, linen and arc-weld tubebracing",
+    "material": "Wood, linen and arc-weld tube bracing",
     "production": "No",
     "notes": "Mail plane. Built to meet U.S. Post Office specifications. Only one was bought by the government."
   },
@@ -337,7 +337,7 @@
     "length": "33 feet 2.25 inches",
     "wingspan": "44 feet 2.25 inches",
     "launched": "5/20/1927",
-    "material": "Wood, linen and arc-weld tubebracing",
+    "material": "Wood, linen and arc-weld tube bracing",
     "production": "No",
     "notes": "The first Boeing plane to carry two passengers and mail."
   },
